@@ -1,0 +1,17 @@
+[project]
+name = "comfyui-videogen"
+version = "0.1.0"
+description = "VideoGen storyboard-to-video nodes with native ComfyUI video output."
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://videogen.io/videogen-mcp"
+Documentation = "https://docs.videogen.io/"
+Repository = "https://github.com/video-gen/comfyui-videogen"
+
+[tool.comfy]
+PublisherId = "videogen"
+DisplayName = "VideoGen"
+Icon = "https://huggingface.co/spaces/video-gen/videogen-video-workflow-builder/resolve/main/logo.png"
